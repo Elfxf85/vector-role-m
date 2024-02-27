@@ -6,7 +6,7 @@ pipeline {
             steps {
                 echo 'Get from GIT repository'
                 git credentialsId: 'git_ssh',
-                url: 'git@github.com:Elfxf85/devops-netology/tree/main/vector-role-m.git',
+                url: 'git@github.com:Elfxf85/vector-role-m.git',
                 branch: 'main'
             }
         }
